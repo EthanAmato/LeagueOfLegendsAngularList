@@ -1,0 +1,23 @@
+<div class = "center">
+<h2>Favorite League of Legends Champions</h2>
+</div>
+<div class = "center">
+<ul class = "champions">
+    <li *ngFor="let champion of champions" 
+    (click)="onSelect(champion)"
+    [class.selected] = "champion === selectedChampion">
+    <span class="badge">{{champion.id}}</span>
+    <div class="float-right">
+    <h2>{{champion.name}}</h2>
+    <h3>{{champion.title}}</h3>  
+    <h3>from {{champion.region}}</h3>  
+    
+    <img src={{champion.photo}} />
+    <br/><br/><br/>
+</div>
+<div *ngIf="champion === selectedChampion">
+    <app-champion-detail [champion] = "selectedChampion"></app-champion-detail>
+</div>
+</li>
+</ul>
+</div>
