@@ -1,0 +1,30 @@
+* {
+    margin:0;
+    text-align: center;
+
+}
+
+.body {
+    height: 100vh;
+
+}
+
+p {
+    margin-right: 15%;
+    margin-left: 15%;
+    line-height: 2.2rem;
+    font-weight: 500;
+    font-size: 20px;
+   
+}
+
+img{
+    border-radius: 3%;
+}
+
+.container {
+    background-color: darkgray;
+    border-radius: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}

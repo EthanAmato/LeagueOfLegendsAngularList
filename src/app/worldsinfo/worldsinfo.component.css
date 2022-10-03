@@ -1,0 +1,53 @@
+* {
+    margin:0;
+    text-align: center;
+
+}
+
+.body {
+    height: 100vh;
+    background-image: url('../../assets/photos/leaguebackground2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: blue;
+}
+
+p {
+    margin-right: 15%;
+    margin-left: 15%;
+    line-height: 2.2rem;
+    font-weight: 500;
+    font-size: 20px;
+   
+}
+
+img{
+    border-radius: 3%;
+}
+
+.container {
+    background-color: darkgray;
+    border-radius: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#worlds {
+    height: 50%;
+    width: 50%;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color:#369;
+}
+
+ul {
+    line-height: 1.5rem;
+    margin-right: 3%;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 20px;
+}

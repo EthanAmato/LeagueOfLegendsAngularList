@@ -1,13 +1,13 @@
 <div class="editor" id = "editor" *ngIf="champion">
     <h2>{{champion.name | uppercase}} Details</h2>
     <div>
-        <label>Region:
-            <input [(ngModel)]="champion.region" placeholder="major" />
-        </label>
-        <br/>
         <label>Title:
             <input [(ngModel)]="champion.title" placeholder="major" />
         </label>
+        <br/>
+        <label>Region:
+            <input [(ngModel)]="champion.region" placeholder="major" />
+        </label>
     </div>
-    <button (click)="handleSave()">Save</button>
+    <button class = "btn btn-primary" (click)="handleSave()">Save</button>
 </div>
